@@ -1,0 +1,36 @@
+.mojito-header {
+    margin-left: 1200px;
+}
+
+.mojito-main {
+    list-style: none;
+}
+
+.mojito {
+    background-color: #0C0B08;
+    color: #DCCA87;
+    text-decoration: none;
+    list-style: none;
+}
+    
+.mojito-logo {
+    margin-left: 80px;
+}
+
+.mojito-text {
+    margin-left: -20px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+    color: #FFFFFF;  
+}
+
+.mojito-white {
+    color: #FFFFFF;
+}
+
+.mojito-mini {
+    color: #AAAAAA;
+}
