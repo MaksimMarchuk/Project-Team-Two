@@ -158,3 +158,8 @@ body {
     bottom: 100px;
 }
 
+.chef {
+    background-image: url(/src/bg-mojito.webp);
+    background: no-repeat;
+}
+
