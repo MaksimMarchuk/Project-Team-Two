@@ -1,0 +1,66 @@
+.section-about-us {
+  background-image: url(/src/bg-knife.webp);
+  display: flex;
+  gap: 50px;
+  width: 1920px;
+  height: 959px;
+}
+
+.fisrt-part-about-us {
+  display: flex;
+  flex-direction: column;
+  max-width: 523px;
+  align-items: flex-end;
+  justify-content: center;
+  margin-left: 310px;
+}
+
+.two-part-about-us {
+  display: flex;
+  flex-direction: column;
+  max-width: 523px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.main-text-abuot-us {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-align: right;
+  text-transform: capitalize;
+  color: #dcca87;
+}
+
+.text-about-us {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: right;
+  color: #aaaaaa;
+}
+
+.button-about-us {
+  width: 141px;
+  height: 44px;
+  background-color: #dcca87;
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+}
+
+.decorate-about-us {
+    width: 40px;
+    height: 9px;
+}
+
+.knife-img {
+    width: 84px;
+    height: 703px;
+    justify-content: center;
+}
