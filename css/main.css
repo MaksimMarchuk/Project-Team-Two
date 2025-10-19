@@ -1,3 +1,7 @@
+body {
+  background-color: var(--dark-brown);
+}
+
 .section-about-us {
     background-image: url(/src/bg-knife.webp);
     display: flex;
@@ -24,6 +28,42 @@
 }
 
 .main-text-abuot-us {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-align: right;
+  text-transform: capitalize;
+  color: #dcca87;
+  cursor: default;
+}
+
+.text-about-us {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-align: right;
+  color: #aaaaaa;
+  cursor: default;
+}
+
+.button-about-us {
+  width: 141px;
+  height: 44px;
+  background-color: var(--sandy-gold);
+  font-family: Cormorant Upright;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  border-style: none;
+  cursor: pointer;
+}
+
+.button-about-us:hover {
+  background-color: #c0b076;
     font-weight: 600;
     font-size: 64px;
     line-height: 130%;
@@ -55,14 +95,135 @@
 }
 
 .decorate-about-us {
-    width: 40px;
-    height: 9px;
+  width: 40px;
+  height: 9px;
 }
 
 .knife-img {
-    width: 84px;
-    height: 703px;
+  width: 84px;
+  height: 703px;
+  align-self: center;
+}
+
+.logo-img-book {
+  margin-left: 1623px;
+}
+
+.div-book {
+  width: 1364px;
+  height: 466px;
+  background-color: #0c0c0c;
+  border: solid #dcca8733 1px;
+  margin-left: 278px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sect-book {
+  background-color: #0c0c0c;
+}
+
+.book-text {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.book-main-text {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--sandy-gold);
+  margin: 0 auto;
+}
+
+.decorate-book {
+  width: 40px;
+  height: 9px;
+}
+
+.button-book {
+  width: 133px;
+  height: 44px;
+  background-color: var(--sandy-gold);
+  border-style: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.button-book:hover {
+  background-color: #c0b076;
+}
+
+.book-select {
+  width: 412px;
+  height: 60px;
+  border-style: none;
+  background-color: #0c0c0c;
+  border: solid #f5efdb 1px;
+  color: #aaaaaa;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+}
+
+.sect-book-div {
+  display: flex;
+  gap: 40px;
+}
+
+.book-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.div-menu {
+  width: 1920px;
+  height: 900px;
+  background-image: url(/src/water.webp);
+  margin-top: 70px;
+}
+
+.logo-img-menu {
+  margin-left: 70px;
+}
+
+.menu-text {
+  color: white;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  text-decoration-style: solid;
+  text-decoration-thickness: 0%;
+  cursor: pointer;
+}
+
+.menu-text:hover {
+    text-decoration: underline;
+}
+
+.sect-menu {
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
     justify-content: center;
+    margin-left: 100px;
 }
 
 body {
@@ -156,10 +317,12 @@ body {
     margin-left: 325px;
     position: relative;
     bottom: 100px;
+
 }
 
 .chef {
     background-image: url(/src/bg-mojito.webp);
     background: no-repeat;
 }
+
 
