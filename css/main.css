@@ -3,28 +3,28 @@ body {
 }
 
 .section-about-us {
-  background-image: url(/src/bg-knife.webp);
-  display: flex;
-  gap: 50px;
-  width: 1920px;
-  height: 959px;
+    background-image: url(/src/bg-knife.webp);
+    display: flex;
+    gap: 50px;
+    width: 1920px;
+    height: 959px;
 }
 
 .fisrt-part-about-us {
-  display: flex;
-  flex-direction: column;
-  max-width: 523px;
-  align-items: flex-end;
-  justify-content: center;
-  margin-left: 310px;
+    display: flex;
+    flex-direction: column;
+    max-width: 523px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 310px;
 }
 
 .two-part-about-us {
-  display: flex;
-  flex-direction: column;
-  max-width: 523px;
-  align-items: flex-start;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 523px;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .main-text-abuot-us {
@@ -64,6 +64,34 @@ body {
 
 .button-about-us:hover {
   background-color: #c0b076;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 3%;
+    text-align: right;
+    text-transform: capitalize;
+    color: #dcca87;
+}
+
+.text-about-us {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
+    text-align: right;
+    color: #aaaaaa;
+}
+
+.button-about-us {
+    width: 141px;
+    height: 44px;
+    background-color: #dcca87;
+    font-family: Cormorant Upright;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 4%;
 }
 
 .decorate-about-us {
@@ -196,4 +224,97 @@ body {
     column-gap: 50px;
     justify-content: center;
     margin-left: 100px;
+}
+
+body {
+    font-family: "Cormorant Upright", serif;
+}
+
+.mojito-header {
+    margin-left: 800px;
+}
+
+.mojito-main {
+    list-style: none;
+    margin-left: 300px;
+    position: relative;
+    top: 50px;
+}
+
+.mojito {
+    background-color: #0C0B08;
+    color: #DCCA87;
+    text-decoration: none;
+    list-style: none;
+}
+
+.mojito-logo {
+    margin-left: 180px;
+}
+
+.mojito-text {
+    margin-left: 75px;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.mojito-white {
+    color: #FFFFFF;
+}
+
+.mojito-mini {
+    color: #AAAAAA;
+}
+
+.mojito-photo {
+    position: relative;
+    bottom: 1450px;
+    margin: 750px;
+    width: 512px;
+    height: 860px;
+    opacity: 1;
+}
+
+.mojito-btn {
+    width: 136px;
+    height: 44px;
+    opacity: 1;
+    padding-top: 8px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+    background-color: #DCCA87;
+    border: none;
+    cursor: pointer;
+    margin-left: 950px;
+    position: relative;
+    bottom: 2900px;
+}
+
+.mojito-name {
+    font-size: 64px;
+}
+
+.mojito-list {
+    position: relative;
+    bottom: 3060px;
+    margin-left: 1400px;
+    list-style: none;
+}
+
+.mojito-line {
+    position: relative;
+    bottom: 70px;
+    margin-left: 175px;
+} 
+
+.mojito-dolar {
+    color: #FFFFFF;
+    margin-left: 325px;
+    position: relative;
+    bottom: 100px;
 }
