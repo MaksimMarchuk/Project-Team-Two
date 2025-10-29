@@ -592,3 +592,13 @@ body {
   bottom: 1120px;
 }
 
+.logo-background {
+  position: relative;
+  left: 197px;
+}
+
+.svg-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
