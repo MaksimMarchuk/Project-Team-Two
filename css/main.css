@@ -62,17 +62,6 @@ body {
   cursor: pointer;
 }
 
-.button-about-us:hover {
-  background-color: #c0b076;
-  font-weight: 600;
-  font-size: 64px;
-  line-height: 130%;
-  letter-spacing: 3%;
-  text-align: right;
-  text-transform: capitalize;
-  color: #dcca87;
-}
-
 .text-about-us {
   font-family: Open Sans;
   font-weight: 400;
@@ -92,6 +81,12 @@ body {
   font-size: 16px;
   line-height: 175%;
   letter-spacing: 4%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button-about-us:hover{
+  background: #c0b076;
+  transform: scale(1.2);
 }
 
 .decorate-about-us {
@@ -158,10 +153,12 @@ body {
   border-style: none;
   cursor: pointer;
   margin-top: 50px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .button-book:hover {
-  background-color: #c0b076;
+    background: #c0b076;
+  transform: scale(1.2);
 }
 
 .book-select {
@@ -227,8 +224,8 @@ body {
 }
 
 .mojito {
-  background-color: #0C0B08;
-  color: #DCCA87;
+  background-color: #0c0b08;
+  color: #dcca87;
   padding: 100px 0;
   display: flex;
   justify-content: center;
@@ -247,7 +244,7 @@ body {
 .mojito-text {
   font-weight: 700;
   font-size: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: capitalize;
   position: relative;
   left: 900px;
@@ -260,17 +257,15 @@ body {
   top: 200px;
 }
 
-
-
 .mojito-dolar {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 15px;
 }
 
 .mojito-btn {
   width: 160px;
   height: 48px;
-  background-color: #DCCA87;
+  background-color: #dcca87;
   border: none;
   cursor: pointer;
   color: #000;
@@ -338,16 +333,16 @@ body {
 }
 
 .mojito-white {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .mojito-mini {
-  color: #AAAAAA;
+  color: #aaaaaa;
 }
 
 .mojito-list {
-  background-color: #0C0B08;
-  color: #DCCA87;
+  background-color: #0c0b08;
+  color: #dcca87;
   padding: 100px 0;
   list-style: none;
   position: relative;
@@ -365,11 +360,10 @@ body {
 }
 
 .mojito-dolar {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 325px;
   position: relative;
   bottom: 100px;
-
 }
 
 .mojito-main {
@@ -393,7 +387,7 @@ body {
   display: flex;
   justify-content: center;
   font-size: 23px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .spoons {
@@ -408,7 +402,7 @@ body {
 
 .text-person {
   gap: 100px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 16px;
   font-size: 16px;
   line-height: 175%;
@@ -452,7 +446,7 @@ body {
 
 .text-persons {
   gap: 100px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 16px;
   font-size: 16px;
   line-height: 175%;
@@ -480,7 +474,7 @@ body {
 
 .text-robert {
   gap: 100px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 16px;
   font-size: 16px;
   line-height: 175%;
@@ -516,7 +510,7 @@ body {
 
 .text-jane {
   gap: 100px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 16px;
   font-size: 16px;
   line-height: 175%;
@@ -558,7 +552,7 @@ body {
 
 .text-brooklyn {
   gap: 100px;
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 16px;
   font-size: 16px;
   line-height: 175%;
@@ -573,7 +567,7 @@ body {
   letter-spacing: 4%;
   position: relative;
   left: 1275px;
-  bottom: 1350px;  
+  bottom: 1350px;
 }
 
 .sommelier-brooklyn {
@@ -601,4 +595,174 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.gallery-inst-text {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.gallery-main-text {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #dcca87;
+  width: 383px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.gallery-lorem {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  color: #aaaaaa;
+}
+
+.gallery-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  width: 136px;
+  height: 44px;
+  background-color: #dcca87;
+  color: #0c0c0c;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery-btn:hover {
+  background: #c0b076;
+  transform: scale(1.2);
+}
+
+.gallery-first-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 491px;
+  justify-content: flex-start;
+  margin-left: 310px;
+}
+
+.gallery-sect {
+  display: flex;
+  gap: 40px;
+  background-image: url(/src/gallery-bg.webp);
+  height: 705px;
+  width: 1920px;
+  align-items: center;
+}
+
+.gallery-decoration {
+  height: 9px;
+  width: 40px;
+}
+
+.logo-gallery {
+  width: 146px;
+  height: 146px;
+  margin-left: 106px;
+}
+
+.gallery-img {
+  width: 301px;
+  height: 447px;
+}
+
+.subscribe-nextmain-text {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 70px;
+}
+
+.subscribe-main-text {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 130%;
+  letter-spacing: 3%;
+  text-transform: capitalize;
+  color: #dcca87;
+  margin: 0;
+}
+
+.subscribe-mimi-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  color: #ffffff;
+}
+
+.subscribe-sect {
+  border: solid 1px #dcca8733;
+  width: 1300px;
+  height: 442px;
+  margin-left: 310px;
+}
+
+.subscribe-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  width: 136px;
+  height: 44px;
+  background-color: #dcca87;
+  color: #0c0c0c;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.subscribe-btn:hover {
+  background: #c0b076;
+  transform: scale(1.2);
+}
+
+.subscribe-input {
+  width: 635px;
+  height: 60px;
+  border-style: none;
+  border: solid #f5efdb 1px;
+  background-color: #0c0c0c;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 175%;
+  letter-spacing: 4%;
+  text-transform: capitalize;
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+.sub-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-decoration {
+  height: 9px;
+  width: 40px;
+  margin: 0;
+}
+
+.sub-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
 }
