@@ -600,9 +600,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 8450px;
-  left: 850px;
+ 
 }
 
 .gallery-inst-text {
@@ -866,7 +864,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px 100px; /* відстань між рядками та стовпцями */
+  gap: 40px 100px;
   margin: 0 auto;
   padding: 0;
 }
@@ -887,4 +885,109 @@ body {
   position: absolute;
   top: 450px;
   right: 1000px;
+}
+
+.blog-section {
+  background-color: #0C0C0C;
+  font-family: 'Cormorant Garamond', serif;
+  color: #fff;
+  text-align: center;
+  padding: 100px 80px;
+  position: relative;
+}
+
+.blog-subtitle {
+  color: #AAAAAA;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.blog-title {
+  color: #DCCA87;
+  font-size: 48px;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+.blog-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.blog-card {
+  background-color: #0C0C0C;
+  width: 350px;
+  list-style: none;
+  text-align: left;
+  color: #fff;
+  padding: 0;
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.blog-card .date {
+  font-size: 14px;
+  color: #AAAAAA;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blog-card .author {
+  font-size: 14px;
+  color: #AAAAAA;
+  display: inline-block;
+}
+
+.blog-card .title {
+  color: #DCCA87;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+.blog-card .desc {
+  color: #AAAAAA;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.blog-card .read {
+  color: #DCCA87;
+  font-size: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.view-more {
+  background-color: #DCCA87;
+  color: #0C0C0C;
+  border: none;
+  padding: 12px 30px;
+  margin-top: 60px;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.view-more:hover {
+  background-color: #fff;
+}
+
+.corner-logo {
+  position: absolute;
+  right: 50px;
+  bottom: 40px;
+  width: 120px;
+}
+
+.logo-cheese {
+  position: absolute;
 }
