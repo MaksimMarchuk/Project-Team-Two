@@ -869,22 +869,22 @@ body {
   padding: 0;
 }
 
-.persons {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .persons-robert {
   position: absolute;
-  right:1045px;
-  top: 950px;
+  right:1288px;
+  top: 875px;
 }
 
 .persons-jane {
   position: absolute;
-  top: 450px;
-  right: 1000px;
+  top: 495px;
+  right: 1300px;
+}
+
+.persons-brooklyn {
+  position: absolute;
+  top: 1375px;
+  right: 1300px;
 }
 
 .blog-section {
@@ -990,4 +990,40 @@ body {
 
 .logo-cheese {
   position: absolute;
+}
+
+.logo-background {
+position:absolute;
+top: 6650px;
+  
+}
+
+.logo-background img {
+  width: 160px;
+  height: auto;
+  opacity: 0.9;
+}
+
+.svg-background {
+  position: absolute;
+  bottom: -6300px;
+  left: 800px;
+  z-index: 3;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.svg-background:hover {
+  transform: scale(1.2);
+}
+
+.restorun {
+  width: 100vw;             
+  min-height: 100vh; 
+  background-size: cover; 
+}
+
+.mojito {
+  position: relative;
+  right: 200px;
 }
