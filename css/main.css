@@ -391,12 +391,12 @@ body {
 
 .spoons {
   position: relative;
-  left: 950px;
+  left: 835px;
 }
 
 .customers {
   position: relative;
-  left: 860px;
+  left: 740px;
   color: #DCCA87;
 }
 
@@ -412,6 +412,9 @@ body {
 }
 
 .persons {
+  position: relative;
+  top: 10px;
+  left: 305px;
   list-style: none;
 }
 
@@ -884,18 +887,21 @@ body {
   position: absolute;
   right:1288px;
   top: 875px;
+  list-style: none;
 }
 
 .persons-jane {
-  position: absolute;
+  position: relative;
   top: 495px;
-  right: 2100px;
+  right: 1563px;
+  list-style: none;
 }
 
 .persons-brooklyn {
   position: absolute;
   top: 1375px;
   right: 1300px;
+  list-style: none;
 }
 
 .blog-section {
